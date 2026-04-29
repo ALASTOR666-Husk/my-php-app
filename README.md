@@ -216,7 +216,7 @@ jobs:
 - Если ваш **Workflow** стал красным - исправьте ошибки и запуштесь снова
 - Вывод — Hello from PHP in Docker! 🐳
 
-![Скрин](/content/DevOps/CI_CD/img/15_workflow.png)
+![Скрин](2026-04-29_10-07-02.png)
 
 ### 8. Проверить сборку Docker-образа локально
 
@@ -228,4 +228,4 @@ docker build -t my-php-app:latest .
 docker run --rm my-php-app:latest
 ```
 
-![Скрин](/content/DevOps/CI_CD/img/14_workflow.png)
+![Скрин](2026-04-29_10-03-24.png)
